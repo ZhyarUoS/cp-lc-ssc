@@ -1,0 +1,63 @@
+{
+  "_comment": "Published reference results (Table IV / Table VI of the CA-DSCA manuscript). Each entry is a [mean, std] pair. CI bounds are computed at runtime from these values using the same t-distribution formula applied to Config 1's freshly-computed MC-Dropout stats, so both sets of numbers are on identical statistical footing.",
+  "bert": {
+    "baseline": {
+      "micro": [0.8651, 0.0007], "macro": [0.8105, 0.0010],
+      "BACKGROUND": [0.7281, 0.0017], "CONCLUSIONS": [0.8282, 0.0014], "METHODS": [0.9349, 0.0007],
+      "OBJECTIVE": [0.6471, 0.0031], "RESULTS": [0.9142, 0.0009]
+    },
+    "cadsca": {
+      "micro": [0.9088, 0.0006], "macro": [0.8570, 0.0010],
+      "BACKGROUND": [0.7924, 0.0019], "CONCLUSIONS": [0.9346, 0.0011], "METHODS": [0.9551, 0.0004],
+      "OBJECTIVE": [0.6542, 0.0032], "RESULTS": [0.9486, 0.0006]
+    }
+  },
+  "scibert": {
+    "baseline": {
+      "micro": [0.8642, 0.0006], "macro": [0.8097, 0.0010],
+      "BACKGROUND": [0.7259, 0.0019], "CONCLUSIONS": [0.8287, 0.0013], "METHODS": [0.9321, 0.0005],
+      "OBJECTIVE": [0.6458, 0.0031], "RESULTS": [0.9158, 0.0005]
+    },
+    "cadsca": {
+      "micro": [0.9093, 0.0007], "macro": [0.8582, 0.0010],
+      "BACKGROUND": [0.7893, 0.0019], "CONCLUSIONS": [0.9341, 0.0013], "METHODS": [0.9557, 0.0005],
+      "OBJECTIVE": [0.6625, 0.0033], "RESULTS": [0.9496, 0.0006]
+    }
+  },
+  "biobert": {
+    "baseline": {
+      "micro": [0.8599, 0.0007], "macro": [0.7976, 0.0010],
+      "BACKGROUND": [0.6372, 0.0033], "CONCLUSIONS": [0.8357, 0.0015], "METHODS": [0.9374, 0.0006],
+      "OBJECTIVE": [0.6583, 0.0027], "RESULTS": [0.9193, 0.0006]
+    },
+    "cadsca": {
+      "micro": [0.9123, 0.0005], "macro": [0.8618, 0.0009],
+      "BACKGROUND": [0.7793, 0.0019], "CONCLUSIONS": [0.9442, 0.0010], "METHODS": [0.9595, 0.0004],
+      "OBJECTIVE": [0.6712, 0.0028], "RESULTS": [0.9546, 0.0005]
+    }
+  },
+  "biolinkbert": {
+    "baseline": {
+      "micro": [0.8714, 0.0006], "macro": [0.8171, 0.0010],
+      "BACKGROUND": [0.7366, 0.0022], "CONCLUSIONS": [0.8465, 0.0013], "METHODS": [0.9365, 0.0006],
+      "OBJECTIVE": [0.6444, 0.0034], "RESULTS": [0.9217, 0.0007]
+    },
+    "cadsca": {
+      "micro": [0.9174, 0.0005], "macro": [0.8697, 0.0011],
+      "BACKGROUND": [0.7963, 0.0020], "CONCLUSIONS": [0.9499, 0.0011], "METHODS": [0.9613, 0.0004],
+      "OBJECTIVE": [0.6845, 0.0034], "RESULTS": [0.9566, 0.0006]
+    }
+  },
+  "pubmedbert": {
+    "baseline": {
+      "micro": [0.8735, 0.0007], "macro": [0.8214, 0.0010],
+      "BACKGROUND": [0.7221, 0.0022], "CONCLUSIONS": [0.8507, 0.0019], "METHODS": [0.9391, 0.0005],
+      "OBJECTIVE": [0.6718, 0.0023], "RESULTS": [0.9233, 0.0007]
+    },
+    "cadsca": {
+      "micro": [0.9152, 0.0005], "macro": [0.8665, 0.0009],
+      "BACKGROUND": [0.8063, 0.0020], "CONCLUSIONS": [0.9416, 0.0008], "METHODS": [0.9599, 0.0004],
+      "OBJECTIVE": [0.6719, 0.0026], "RESULTS": [0.9527, 0.0006]
+    }
+  }
+}
